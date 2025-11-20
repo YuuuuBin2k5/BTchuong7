@@ -1,0 +1,116 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20 Nov 2025, 13:47:07
+    Author     : Admin
+*/
+
+/*
+ * Murach's Java Servlets and JSP
+ * Main CSS file
+ */
+
+/* Quy tắc chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: white;
+    color: black;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+    font-size: 180%;
+    color: navy;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 150%;
+    color: navy;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+/* Định dạng bảng */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 90%; /* Chiếm 90% chiều rộng */
+    margin-bottom: 1em;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
+
+/* Định dạng cho các phần tử form */
+form {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block; /* Mỗi label trên một dòng mới */
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    margin-top: 0.5em;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 0.5em;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Bao gồm padding và border trong width */
+}
+
+input[type="submit"], button {
+    padding: 8px 15px;
+    background-color: #4CAF50; /* Màu xanh lá cây */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
+
+/* Định dạng cho liên kết (Anchor Tags) */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Định dạng đặc biệt cho các thông báo lỗi/xác nhận */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
